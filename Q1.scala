@@ -2,7 +2,6 @@ object q5 {
   def main(args: Array[String]): Unit = {
     print("Input an Int: ")
     var n = scala.io.StdIn.readInt()
-    // println(prime(n))
     var r=prime(n)
     if(r){
       println("Prime")
